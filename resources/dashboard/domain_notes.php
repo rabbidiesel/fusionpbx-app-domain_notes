@@ -73,7 +73,7 @@ $row_style[!$c] = "row_style1";
 echo "<div class='hud_box' style='cursor: default;'>\n";
 echo "	<form id='form_note' name='form_note'>\n";
 echo "		<div class='panel panel-default'>\n";
-echo "			<span class='hud_title'>Notes</span>\n";
+echo "			<span class='hud_title'>$dashboard_name</span>\n";
 echo "			<div class='panel-body' style='padding-left: 5px; padding-right: 5px; padding-bottom: 5px;'>\n";
 echo "				<textarea name='domain_note' id='domain_note' class='form-control' rows='5' style='resize: none; border: none;'>$domain_note</textarea>\n";
 echo "			</div>\n";
